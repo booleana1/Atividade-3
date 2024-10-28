@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="9">
   <diagram id="pkGdf8ZPWO_ly081M_Fl" name="Module Hazard">
     <mxGraphModel dx="1035" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -724,6 +724,85 @@
         <mxCell id="MdPkW8r-8oRSM2z3hiJp-19" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="96" y="255" width="20" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cFqwIwOlyW79E6wlVN-Y" name="Module Floprc">
+    <mxGraphModel dx="834" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-1" value="floprc" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="159" y="110" width="470" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;startSize=6;exitX=0.891;exitY=0.584;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89" y="224.76" as="sourcePoint" />
+            <mxPoint x="159" y="224.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;startSize=6;exitX=0.891;exitY=0.584;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629" y="208.75" as="sourcePoint" />
+            <mxPoint x="699" y="208.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-4" value="8" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="704" y="193.75" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-5" value="q" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="704" y="188.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-6" value="clear" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="31" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;startSize=6;exitX=0.891;exitY=0.584;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="184.76" as="sourcePoint" />
+            <mxPoint x="160" y="184.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-8" value="reset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="31" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-9" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;startSize=6;exitX=0.891;exitY=0.584;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89" y="264.76" as="sourcePoint" />
+            <mxPoint x="159" y="264.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-10" value="8" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="255" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-11" value="d" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-12" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;startSize=6;exitX=0.891;exitY=0.584;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89" y="154.76" as="sourcePoint" />
+            <mxPoint x="159" y="154.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-13" value="clk" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-14" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="145" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-15" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="175" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ppst_Ch_wcLvXTRY5D7S-16" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="215" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="O-7IP8xCSPoEJafrDZQf" name="Página-9">
+    <mxGraphModel dx="834" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
