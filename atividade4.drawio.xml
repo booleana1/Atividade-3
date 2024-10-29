@@ -579,12 +579,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pJYcmMvWhP-HvgCddxwh" name="Module arm">
-    <mxGraphModel dx="1307" dy="1236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="m6Dygd_HK8TgSjDpSDf--1" value="arm" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="118.5" y="20" width="1561.5" height="880" as="geometry" />
+          <mxGeometry x="118.5" y="20" width="1561.5" height="940" as="geometry" />
         </mxCell>
         <mxCell id="m6Dygd_HK8TgSjDpSDf--89" value="" style="endArrow=none;html=1;rounded=0;" parent="m6Dygd_HK8TgSjDpSDf--1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1080,7 +1080,7 @@
           <mxGeometry x="371.5" y="610" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Kyk7KVm2xyiejmd-IBj0-35" value="datapath: dp" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="m6Dygd_HK8TgSjDpSDf--1">
-          <mxGeometry x="561.5" y="200" width="130" height="180" as="geometry" />
+          <mxGeometry x="561.5" y="200" width="130" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Kyk7KVm2xyiejmd-IBj0-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="m6Dygd_HK8TgSjDpSDf--1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1657,6 +1657,15 @@
         </mxCell>
         <mxCell id="Kyk7KVm2xyiejmd-IBj0-100" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="100" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kyk7KVm2xyiejmd-IBj0-101" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="Kyk7KVm2xyiejmd-IBj0-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="370" as="sourcePoint" />
+            <mxPoint x="570" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kyk7KVm2xyiejmd-IBj0-102" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
